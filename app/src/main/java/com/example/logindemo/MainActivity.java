@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         } else {
             counter--;
 
-            Info.setText(("No of attempts remaining: " + String.valueOf(counter));
+            Info.setText(("No of attempts remaining: " + String.valueOf(counter)));
 
             if(counter == 0){
                 Login.setEnabled(false);
